@@ -6,19 +6,17 @@
 
 :root{
     --preto: #000000;
-    --marinho: #ff00009d;
-    --amarelo-claro:#000000;
+    --vermelho: #ff00009d;
     --roxo-claro:#B2A5FF;
-    --verde: #000000;
-    --azul-claro: #fabcbcd2;
-    --branco: #7a7a7a;
+    --vermelho-claro: #fabcbcd2;
+    --cinza: #7a7a7a;
     --marron-claro: #FAF1E6;
 }
 
 body{
     height: 100vh;
     box-sizing: border-box;
-    background-color: var(--azul-claro);
+    background-color: var(--vermelho-claro);
     color: var(--preto);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -27,14 +25,14 @@ body{
 header {
     display: flex; 
     width: 100%;
-    background-color: var(--marinho);
+    background-color: var(--vermelho);
     padding: 1rem;
     justify-content: center;
 }
 
 .portfolio h1{
     font-size: 4rem;
-    color: var(--amarelo-claro);
+    color: var(--preto);
 }
 main {
     margin: 40px auto;
@@ -54,7 +52,7 @@ main {
 .disciplina {
     display: flex;
     justify-content: center;
-    background-color: var(--branco);
+    background-color: var(--cinza);
     border-radius: 10px;
     padding: 30px;
     width: 80%;
@@ -69,7 +67,7 @@ main {
 }
 
 .disciplina a {
-    color: var(--verde);
+    color: var(--preto);
     font-size: 5rem;
     text-decoration: none;
 }
