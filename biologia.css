@@ -6,18 +6,17 @@
 
 :root {
     --preto: #000000;
-    --marinho: #ff00009d;
+    --vermelho: #ff00009d;
     --amarelo-claro: #FFF2AF;
-    --roxo-claro: #ff00009d;
-    --azul-claro: #fabcbcd2;
-    --branco: #7a7a7a;
+    --vermelho-claro: #fabcbcd2;
+    --cinza: #7a7a7a;
     --marron-claro: #FAF1E6;
 }
 
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color: var(--azul-claro);
+    background-color: var(--vermelho-claro);
     color: var(--amarelo-claro);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,7 +25,7 @@ body {
 header {
     display: flex;
     width: 100%;
-    background-color: var(--marinho);
+    background-color: var(--vermelho);
     padding: 1rem;
     position: relative;
     justify-content: center;
@@ -45,7 +44,7 @@ header {
     background-color: var(--preto);
     border: none;
     padding: 1.05rem 1.5rem;
-    color: var(--roxo-claro);
+    color: var(--vermelho);
 }
 
 #menu-toggle {
@@ -55,8 +54,8 @@ header {
 .lista-vertical {
     display: none;
     position: absolute;
-    background-color: var(--roxo-claro);
-    box-shadow: 0 2px 5px var(--marinho);
+    background-color: var(--vermelho);
+    box-shadow: 0 2px 5px var(--vermelho);
     min-width: 190px;
     z-index: 1;
     left: 1rem;
@@ -131,7 +130,7 @@ h1 {
 }
 
 .conteudo {
-    background-color: var(--branco);
+    background-color: var(--cinza);
     border-radius: 10px;
     padding: 30px;
     width: 80%;
@@ -167,7 +166,7 @@ h1 {
 
 .conteudo ul li {
     padding: 10px 0;
-    border-bottom: 1px solid var(--azul-claro);
+    border-bottom: 1px solid var(--vermelho-claro);
     transition: transform 0.5s ease;
     color: var(--preto);
 }
@@ -193,7 +192,7 @@ h1 {
     max-height: 0;
     overflow: hidden;
     transition: opacity 1.5s ease, max-height 1.5s ease;
-    color: var(--marinho);
+    color: var(--vermelho);
     text-align: justify;
     margin: 0;
     padding: 0;
@@ -203,6 +202,6 @@ h1 {
     opacity: 1;
     max-height: 320px;
     text-align: justify;
-    color: var(--marinho);
+    color: var(--vermelho);
     margin-bottom: 5px;
 }
