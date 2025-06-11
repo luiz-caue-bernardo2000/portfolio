@@ -117,7 +117,7 @@ main {
 
 h1 {
     text-align: center;
-    color: var(--verde);
+    color: var(--preto);
     margin-bottom: 60px;
     font-size: 4rem;
 }
@@ -149,7 +149,7 @@ h1 {
 .conteudo h2 {
     display: flex;
     justify-content: center;
-    color: var(--verde);
+    color: var(--preto);
     margin-bottom: 15px;
     font-size: 2.8rem;
 }
@@ -175,7 +175,7 @@ h1 {
 
 .conteudo ul li:hover {
     transform: translateX(10px);
-    color: var(--verde);
+    color: var(--preto);
 }
 
 .home {
@@ -185,7 +185,7 @@ h1 {
 
 .home a {
     font-size: 2rem;
-    color: var(--verde);
+    color: var(--preto);
 }
 
 .opacidade {
